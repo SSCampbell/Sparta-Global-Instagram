@@ -1,7 +1,7 @@
 .wrapper {
 
-  height:1000px;
-  width: 900px;
+  height:100%;
+  width: 100%;
 }
 
 body {
@@ -10,16 +10,15 @@ body {
 
 .mainP {
 
-  height:750px;
-  width:800px;
+  height:50%;
+  width:50%;
 }
 
 .imgPhone {
-  background-color: green;
-  height:500px;
-  width:300px;
+  height:30%;
+  width:30%;
   float: left;
-  margin-left: 20px;
+  margin-left: 0px;
   margin-top: 100px;
   margin-bottom: 20px;
 }
@@ -32,6 +31,7 @@ body {
 #instaPic {
   height: 65px;
   width:350px;
+
 
 }
 .regBorder {
@@ -47,7 +47,6 @@ body {
   font-family: arial;
   width:350px;
   float: right;
-  margin-right: 20px;
   margin-top: 70px;
   margin-left: 10px;
 
@@ -88,7 +87,7 @@ border-radius: 5%;
   background-color: white;
   color: grey;
   height:20px;
-  width:350px;
+  width:100%;
 }
 
 .signUpReg {
@@ -98,7 +97,7 @@ border-radius: 5%;
   border-style: solid;
   border-width: thin;
   height:180px;
-  width:370px;
+  width:100%;
   padding: 10px;
   margin-left: -21px;
 
@@ -121,7 +120,7 @@ input[type=text], select {
   text-align: center;
   color: white;
   height:30px;
-  width:350px;
+  width:100%;
   margin-bottom: 10px;
 
 }
@@ -130,7 +129,7 @@ input[type=text], select {
   color: grey;
   font-style: bold;
     height:50px;
-  width:350px;
+  width:100%;
 
 
 }
@@ -154,7 +153,7 @@ input[type=submit] {
   border-width: 70%;
   font-style: oblique;
     height: 50px;
-  width:400px;
+  width:100%;
   margin-left: -30px;
   margin-bottom: 50px;
   padding-bottom: 0px;
@@ -173,7 +172,7 @@ background-color: #F5F5F5;
 text-align: center;
 font-style: bold;
   height:200px;
-  width:390px;
+  width:100%;
   margin-top: 60px;
   margin-left: -20px;
   padding-top: 10px;
@@ -185,7 +184,7 @@ font-style: bold;
 }
 .LogoImg {
   display: inline-block;
-  width: 10px;
+  width: 10%;
   margin-left: -120px;
 }
 
@@ -199,7 +198,7 @@ font-style: bold;
 
   margin-top: 100px;
   height:300px;
-  width:1050px;
+  width:100%;
   display: inline-block;
   margin-left: -40px;
 
@@ -211,4 +210,12 @@ font-style: bold;
   color: darkblue;
   font-style: bold;
   font-size: 20px;
+}
+
+
+@media screen and (max-width:1100px){
+.imgPhone {
+
+  display:none;
+}
 }
